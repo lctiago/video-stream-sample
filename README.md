@@ -5,8 +5,8 @@ This is a basic sample of how to do video streaming using Node.js and HTML5
 - git clone
 - npm install
 - npm start
-- open browser in `localhost:3000`
+- open browser in `localhost:3000/:video-name`
 
 Rotas
-- POST /video com um campo video contendo um arquivo .mp4
+- POST /video faz upload de vídeo com uma requisição de campo video contendo um arquivo .mp4
 - GET /video/:name requisita o vídeo cujo nome é especificado
