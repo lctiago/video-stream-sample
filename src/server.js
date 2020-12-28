@@ -57,6 +57,6 @@ app.post('/video', multer(multerConfig).single('video'), async (req, res) => {
 	return res.send({ sucess: 'Video has been uploaded' });
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
 	console.log('Listening on port 3000!');
 })
